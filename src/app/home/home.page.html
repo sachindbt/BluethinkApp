@@ -1,0 +1,361 @@
+<!-- <ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu Content</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-button (click)="goContact()">Contact</ion-button>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-content [fullscreen]="true">
+      <ion-header collapse="condense">
+        <ion-toolbar>
+          <ion-title size="large">Blank</ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+      <div id="container">
+        <swiper
+          [autoplay]="true"
+          [keyboard]="true"
+          [pagination]="true"
+          [scrollbar]="true"
+          [zoom]="true"
+        >
+          <ng-template swiperSlide>
+            <img
+              src="https://www.bluethink.in/wp-content/uploads/2022/03/bluethink-anniversary_27.jpg"
+            />
+          </ng-template>
+          <ng-template swiperSlide>
+            <img
+              src="https://www.bluethink.in/wp-content/uploads/2022/09/DSC8224-1024x683.jpg"
+            />
+          </ng-template>
+          <ng-template swiperSlide>
+            <img
+              src="https://www.bluethink.in/wp-content/uploads/2022/03/bluethink-anniversary_30-1024x683.jpg"
+            />
+          </ng-template>
+        </swiper>
+      </div>
+      <ion-content>
+        <h3>Building Future Ready Solutions</h3>
+      </ion-content>
+    </ion-content>
+  </ion-content>
+</div> -->
+
+<!-- <ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="primary"
+      ><ion-title>Menu Content</ion-title></ion-toolbar
+    >
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-list>
+      <ion-item (click)="goContact()">
+        <ion-icon slot="start" name="man" color="danger"></ion-icon>
+        <ion-label>Contact</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu> -->
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-grid>
+      <ion-row style="align-items: center">
+        <ion-col size="8">
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title
+              ><img
+                style="width: 210px"
+                src="https://bluethinkinc.com/wp-content/uploads/2023/app/bluethinkinc-logo-final.png"
+                alt="BluethinkInc Logo"
+            /></ion-title>
+          </ion-toolbar>
+        </ion-col>
+        <ion-col size="2" style="text-align: center"
+          ><ion-icon
+            style="font-size: 36px; color: rgb(114, 113, 113)"
+            name="person-sharp"
+          ></ion-icon
+        ></ion-col>
+        <ion-col size="2" style="text-align: right"
+          ><img
+            style="width: 45px"
+            src="https://bluethinkinc.com/wp-content/uploads/2023/app/us-flag-n.jpg"
+            alt="BluethinkInc Logo"
+          />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-header>
+
+  <ion-content>
+    <div class="swiper-section">
+      <swiper>
+        <ng-template swiperSlide>
+          <img src="https://bluethinkinc.com/wp-content/uploads/2023/app/slide1.jpg" alt="magento" />
+        </ng-template>
+        <ng-template swiperSlide>
+          <img src="https://bluethinkinc.com/wp-content/uploads/2023/app/slide2.jpg" alt="magento" />
+        </ng-template>
+        <ng-template swiperSlide>
+          <img src="https://bluethinkinc.com/wp-content/uploads/2023/app/slide3.jpg" alt="Java" />
+        </ng-template>
+      </swiper>
+    </div>
+    <div class="milstone-card-section">
+      <h3>Milestones</h3>
+      <div class="milstone-card">
+        <ion-card>
+          <ion-card-title
+            ><ion-icon
+              name="person-circle-outline"
+              style="font-weight: 700; font-size: 40px; padding-top: 5px"
+            ></ion-icon
+          ></ion-card-title>
+          <ion-card-subtitle style="font-size: 20px; font-weight: 700"
+            >550</ion-card-subtitle
+          >
+          <p style="font-size: 12px; padding: 5px 10px; margin: 5px">
+            Clients and Counting
+          </p>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-title
+            ><ion-icon
+              name="bicycle"
+              style="font-weight: 700; font-size: 40px; padding-top: 5px"
+            ></ion-icon
+          ></ion-card-title>
+          <ion-card-subtitle style="font-size: 20px; font-weight: 700"
+            >521</ion-card-subtitle
+          >
+          <p style="font-size: 12px; padding: 5px 10px; margin: 5px">
+            Projects
+          </p>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-title
+            ><ion-icon
+              name="thumbs-up"
+              style="font-weight: 700; font-size: 40px; padding-top: 5px"
+            ></ion-icon
+          ></ion-card-title>
+          <ion-card-subtitle
+            style="font-size: 20px; font-weight: 700; padding-top: 5px"
+            >1500</ion-card-subtitle
+          >
+          <p style="font-size: 12px; padding: 5px 10px; margin: 5px">
+            Hours of Consultancy
+          </p>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-title
+            ><ion-icon
+              name="people"
+              style="font-weight: 700; font-size: 40px; padding-top: 5px"
+            ></ion-icon
+          ></ion-card-title>
+          <ion-card-subtitle style="font-size: 20px; font-weight: 700"
+            >25</ion-card-subtitle
+          >
+          <p style="font-size: 12px; padding: 5px 10px; margin: 5px">
+            Domain Experts
+          </p>
+        </ion-card>
+      </div>
+    </div>
+    <div class="milstone-card-section">
+      <h3>How We Add Value to Your Business</h3>
+      <div class="value-card">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title
+              >Choosing a service makes an everlasting impact on your
+              business.</ion-card-title
+            >
+            <!-- <ion-card-subtitle
+              >Choosing a service makes an everlasting impact on your
+              business.</ion-card-subtitle -->
+          </ion-card-header>
+          <ion-card-content>
+            <ion-list>
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img
+                    alt="Silhouette of mountains"
+                    src="https://bluethinkinc.com/wp-content/uploads/2023/app/software.png"
+                  />
+                </ion-thumbnail>
+                <ion-label>Software Development</ion-label>
+              </ion-item>
+
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img
+                    alt="Silhouette of mountains"
+                    src="https://bluethinkinc.com/wp-content/uploads/2023/app/booking.png"
+                  />
+                </ion-thumbnail>
+                <ion-label>Mobile App Development</ion-label>
+              </ion-item>
+
+              <ion-item>
+                <ion-thumbnail slot="start">
+                  <img
+                    alt="Silhouette of mountains"
+                    src="https://bluethinkinc.com/wp-content/uploads/2023/app/app.png"
+                  />
+                </ion-thumbnail>
+                <ion-label>Web App Development</ion-label>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-thumbnail slot="start">
+                  <img
+                    alt="Silhouette of mountains"
+                    src="https://bluethinkinc.com/wp-content/uploads/2023/app/design.png"
+                  />
+                </ion-thumbnail>
+                <ion-label>UI/UX Design</ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </div>
+
+    <div class="milstone-card-section">
+      <h3>Why Choose Us?</h3>
+      <p class="para">
+        Choosing a service makes an everlasting impact on your business. Here is
+        why we find ourselves worthy of your attention.
+      </p>
+      <div class="chose-img">
+        <img src="https://bluethinkinc.com/wp-content/uploads/2023/app/whybnr-img.jpg" alt="" />
+      </div>
+      <div class="chose-inner">
+        <ion-accordion-group expand="inset">
+          <ion-accordion value="first">
+            <ion-item slot="header" color="light">
+              <ion-label>Expertise</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              Expertise is the first and foremost thing for clients choosing an
+              IT solution company. Our expertise in different technology makes
+              us an ideal fit.
+            </div>
+          </ion-accordion>
+          <ion-accordion value="second">
+            <ion-item slot="header" color="light">
+              <ion-label>Experience</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              Knowledge is essential but it is the experience that brings
+              finesse to work. Our decade-long experience in technology has
+              helped us attain perfection.
+            </div>
+          </ion-accordion>
+          <ion-accordion value="third">
+            <ion-item slot="header" color="light">
+              <ion-label>Commitment</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              As we sign an agreement, we commit to developing your project with
+              perfections. Delivering the project on time is one of our biggest
+              commitments.
+            </div>
+          </ion-accordion>
+          <ion-accordion value="fourth">
+            <ion-item slot="header" color="light">
+              <ion-label>Communication</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              Communication is key to a successful project. So, we keep
+              communicating with you, welcome your suggestions and keep updating
+              you about the status.
+            </div>
+          </ion-accordion>
+          <ion-accordion value="fifth">
+            <ion-item slot="header" color="light">
+              <ion-label>Affordability</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              Besides being technologically sound, a service provider should
+              also be affordable. We ensure that our clients get maximum bang
+              for their buck.
+            </div>
+          </ion-accordion>
+          <ion-accordion value="sixth">
+            <ion-item slot="header" color="light">
+              <ion-label>Security</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              Security threat is a major concern for businesses. We understand
+              it and create secure software solutions to keep your business and
+              customers safe.
+            </div>
+          </ion-accordion>
+        </ion-accordion-group>
+      </div>
+    </div>
+
+    <div class="lets-together-section ion-padding">
+      <div class="address-section">
+        <div class="address-inner">
+          <div class="address-icon">
+            <img src="https://bluethinkinc.com/wp-content/uploads/2021/10/USA_1.gif" alt="National Flag">
+          </div>
+          <div class="address_content">
+            <p>420 W 9th St Maryville, Missouri 64468, United States</p>
+          </div>
+        </div>
+        <div class="address-inner">
+          <div class="address-icon">
+            <img src="https://bluethinkinc.com/wp-content/uploads/2022/11/netherlands-flag_1.gif" alt="National Flag">
+          </div>
+          <div class="address_content">
+            <p>Betsy Perklaan 26, 1187PM, Amstelveen, Netherlands.</p>
+          </div>
+        </div>
+        <div class="address-inner">
+          <div class="address-icon">
+            <img src="https://bluethinkinc.com/wp-content/uploads/2022/11/canada-flag_4.gif" alt="National Flag">
+          </div>
+          <div class="address_content">
+            <p>6977 Antrim Ave Burnaby, BC. V5J 4M5, Canada</p>
+          </div>
+        </div>
+        <div class="address-inner">
+          <div class="address-icon">
+            <img src="https://bluethinkinc.com/wp-content/uploads/2022/11/india_flag_7.gif" alt="National Flag">
+          </div>
+          <div class="address_content">
+            <p>B-12, B Block, Sector 2, Noida, Uttar Pradesh 201301</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</div>

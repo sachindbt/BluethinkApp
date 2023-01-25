@@ -1,0 +1,195 @@
+// .address-section{
+//   border-top: 3px solid #423df5;
+//     border-bottom: 3px solid #423df5;
+//     padding: 30px;
+//     background: #fff;
+//     width: 100%;
+//     box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+//     padding: 15px!important;
+// }
+.form-section form{
+  border-top: 3px solid #423df5;
+    border-bottom: 3px solid #423df5;
+    padding: 30px;
+    background: #fff;
+    width: 95%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+    padding: 15px!important;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+.form-section ion-input.custom {
+  --background: #eee;
+  --color: #fff;
+  --placeholder-color: #000;
+  --placeholder-opacity: .8;
+  --padding-bottom: 10px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --padding-top: 10px;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  background: #fff;
+  border-bottom: solid 3px transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  margin: 10px 0 30px 0;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+ion-textarea.custom-textarea {
+  --background: #eee;
+  --color: #fff;
+  --placeholder-color: #000;
+  --placeholder-opacity: .8;
+  --padding-bottom: 10px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --padding-top: 10px;
+  width: 100%;
+  height: 80px;
+  outline: none;
+  background: #fff;
+  border-bottom: solid 3px transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  margin: 10px 0 30px 0;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+ion-button {
+  --background: #423df5;
+  --background-hover: #423df5;
+  --background-activated: #423df5;
+  --background-focused: #423df5;
+
+  --color: #fff;
+
+  --border-radius: 0;
+  --border-color: #423df5;
+  --border-style: solid;
+  --border-width: 1px;
+
+  // --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --ripple-color:#423df5;
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+}
+.section-title {
+  text-align: center;
+}
+.section-title h3 {
+  margin: 20px 0;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  max-width: 80%;
+  font-family: "Titillium Web",sans-serif;
+}
+.form-section {
+  background: #eee;
+  padding: 5px;
+}
+.address-section{
+  background: #eee;
+  padding: 5px;
+}
+.address-section ion-card {
+  --background: #fff;
+  --color: #085694;
+  min-height: 100px;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.address-section ion-card-title {
+  --color: #52ffe4;
+}
+
+.address-section ion-card-subtitle {
+  --color: #d1fff8;
+}
+
+/* iOS places the subtitle above the title */
+.address-section ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+}
+.address-section ion-icon{
+  background: #085694;
+  padding: 10px;
+  font-size: 33px;
+  color: #fff;
+  border-radius: 50%;
+}
+.lets-together-section h2 {
+  font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+.lets-together-section p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 25px;
+}
+.lets-together-section {
+  text-align: center;
+  background-color: #085694;
+}
+.our-services-head {
+  background-color: #ece8e8;
+}
+.address-icon img {
+  width: 52px;
+  height: 40px;
+}
+.address_content p {
+  font-size: 15px !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    line-height: 21px !important;
+    text-align: left !important;
+    padding-bottom: 8px;
+}
+.address-inner {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #cccc;
+}
+.error_message {
+  color: red;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-weight: 500;
+}

@@ -1,0 +1,135 @@
+
+@import 'swiper/scss';
+@import '@ionic/angular/css/ionic-swiper';
+
+#container {
+  text-align: center;
+}
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+  font-family: "Titillium Web",sans-serif;
+}
+#container a {
+  text-decoration: none;
+}
+.milstone-card ion-card {
+  --background: #085694 ;
+  --color: #fff;
+  width: 44%;
+}
+.milstone-card ion-card-title {
+  --color: #fff;
+}
+.milstone-card ion-card-subtitle {
+  --color: #fff;
+}
+.milstone-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Titillium Web",sans-serif;
+}
+.milstone-card-section{
+  text-align: center;
+  background: #eee;
+  font-family: "Titillium Web",sans-serif;
+}
+.milstone-card-section h3{
+  margin: 20px 0;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  max-width: 80%;
+  font-family: "Titillium Web",sans-serif;
+}
+.milstone-card-section h3:before {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #f44336;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  z-index: 1;
+}
+.chose-inner {
+  overflow: hidden;
+  text-align: left;
+  font-family: "Titillium Web",sans-serif;
+}
+.value-card {
+  overflow: hidden;
+  font-family: "Titillium Web",sans-serif;
+}
+.chose-img img {
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 90%;
+  font-family: "Titillium Web",sans-serif;
+}
+p.para {
+  background: #fff;
+  margin: 10px 20px;
+  background-color: rgb(255 255 255);
+  color: rgb(30,32,34);
+  transition: box-shadow 300ms cubic-bezier(.4,0,.2,1) 0ms;
+  box-shadow: rgb(140 152 164 / 25%) 0 3px 6px 0;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: "Titillium Web",sans-serif;
+}
+.lets-together-section h2 {
+  font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+.lets-together-section p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 25px;
+}
+.lets-together-section {
+  text-align: center;
+  background-color: #085694;
+}
+.our-services-head {
+  background-color: #ece8e8;
+}
+.address-icon img {
+  width: 52px;
+  height: 40px;
+}
+.address_content p {
+  font-size: 15px !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    line-height: 21px !important;
+    text-align: left !important;
+    padding-bottom: 8px;
+}
+.address-inner {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #cccc;
+}
+.value-card ion-card {
+  font-family: "Titillium Web", sans-serif;
+}

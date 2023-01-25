@@ -1,0 +1,143 @@
+<ion-app>
+  <ion-menu side="start" contentId="content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title class="menu-title"
+          ><ion-chip>
+            <ion-avatar>
+              <img
+                alt="Silhouette of a person's head"
+                src="https://ionicframework.com/docs/img/demos/avatar.svg"
+              />
+            </ion-avatar>
+            <ion-label>Bluethink Admin </ion-label>
+          </ion-chip></ion-title
+        >
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-searchbar></ion-searchbar>
+      <ion-list>
+        <ion-menu-toggle auto-hide="true">
+          <ion-item (click)="goHome()">
+            <ion-label
+              ><ion-icon
+                slot="start"
+                name="home"
+                color="danger"
+                style="margin-right: 10px"
+              ></ion-icon
+              >Home</ion-label
+            >
+          </ion-item>
+
+         
+          <ion-item (click)="goAbout()" routerDirection="forward">
+            <ion-label>
+              <ion-icon
+                slot="start"
+                name="information-circle"
+                color="danger"
+                style="margin-right: 10px"
+              ></ion-icon
+              >About
+            </ion-label>
+          </ion-item>
+          <ion-item (click)="goTechnology()" routerDirection="forward">
+            <ion-label>
+              <ion-icon
+                slot="start"
+                name="cog-sharp"
+                color="danger"
+                style="margin-right: 10px"
+              ></ion-icon
+              >Technology
+            </ion-label>
+          </ion-item>
+          <ion-item (click)="goOurTeam()" routerDirection="forward">
+            <ion-label>
+              <ion-icon
+                slot="start"
+                name="people-circle-outline"
+                color="danger"
+                style="margin-right: 10px"
+              ></ion-icon
+              >Our Team
+            </ion-label>
+          </ion-item>
+   
+           <!-- </ion-item> -->
+        
+          <ion-item (click)="goClient()" routerDirection="forward">            
+            <ion-label><ion-icon slot="start" name="person-add-sharp" color="danger"  style="margin-right: 10px"></ion-icon>Client Login</ion-label>
+          </ion-item>
+          <ion-item (click)="goEmployee()" routerDirection="forward">           
+            <ion-label><ion-icon slot="start" name="person-circle-sharp" color="danger"  style="margin-right: 10px"></ion-icon>Employee Login</ion-label>
+          </ion-item>
+          <ion-item (click)="goClients()" routerDirection="forward">       
+            <ion-label> <ion-icon slot="start" name="people-sharp" color="danger"  style="margin-right: 10px"></ion-icon>Clients</ion-label>
+          </ion-item>
+          <ion-item (click)="goGallery()" routerDirection="forward">
+            <ion-label>
+              <ion-icon slot="start" name="images-sharp" color="danger"  style="margin-right: 10px"></ion-icon>
+              Gallery</ion-label>
+          </ion-item>
+          <ion-item (click)="goServices()" routerDirection="forward">
+            <ion-label> <ion-icon slot="start" name="invert-mode-sharp" color="danger"  style="margin-right: 10px"></ion-icon>Services</ion-label>
+          </ion-item>
+          <ion-item (click)="goPortfolio()" routerDirection="forward">
+            <ion-label> <ion-icon slot="start" name="hardware-chip-sharp" color="danger"  style="margin-right: 10px"></ion-icon>Portfolio</ion-label>
+          </ion-item>
+          <ion-item (click)="goContact()" routerDirection="forward">
+            <ion-label
+              ><ion-icon
+                slot="start"
+                name="mail"
+                color="danger"
+                style="margin-right: 10px"
+              ></ion-icon
+              >Contact
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="content"></ion-router-outlet>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="contacts">
+        <ion-icon name="mail"></ion-icon>
+        <ion-label>Contacts</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="about">
+        <ion-icon name="information-circle"></ion-icon>
+        <ion-label>About</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+  <!-- <ion-fab slot="fixed" horizontal="end" vertical="center">
+    <ion-fab-button size="large">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="start">
+      <ion-fab-button>
+        <ion-icon name="document"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button>
+        <ion-icon name="color-palette"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button>
+        <ion-icon name="globe"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab> -->
+</ion-app>

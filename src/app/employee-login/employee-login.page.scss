@@ -1,0 +1,114 @@
+
+p{
+    font-family: "Titillium Web",sans-serif;
+  }
+  ul li{
+    font-family: "Titillium Web",sans-serif;
+  }
+  h1{
+    font-family: "Titillium Web",sans-serif;
+  }
+  h2 {
+    font-family: "Titillium Web",sans-serif;
+  }
+  h3{
+    font-family: "Titillium Web",sans-serif;
+  }
+  .client-title h2 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 15px;
+}
+  .contact-main-heading p {
+    font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px;
+  }
+  .contact-inner ion-input.custom {
+    --background: #eee;
+    --color: #000;
+    --placeholder-color: #000;
+    --placeholder-opacity: .8;
+    --padding-bottom: 10px;
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    background: #fff;
+    border-bottom: solid 3px transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    margin: 10px 0 30px 0;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  select.clent-select {
+    --background: #eee;
+    --color: #000;
+    --placeholder-color: #000;
+    --placeholder-opacity: .8;
+    --padding-bottom: 10px;
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    background: #fff;
+    border-bottom: solid 3px transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    margin: 0px 0 30px 0;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+  .contact-inner.ion-padding {
+    background-color: #f4f5f8;
+    padding: 12px;
+}
+.client-loginbtn-sec {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+.clent-login-wrraper {
+    background-image: url(https://bluethinkinc.com/wp-content/uploads/2023/app/emp_1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    padding-top: 76px;
+    height: 100vh;
+}
+.client-title p {
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+    color: #085694;
+    font-weight: 600;
+    padding-bottom: 12px;
+}

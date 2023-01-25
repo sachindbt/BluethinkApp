@@ -1,0 +1,93 @@
+<!-- <ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="primary"
+      ><ion-title>Menu Content</ion-title></ion-toolbar
+    >
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-list>
+      <ion-item (click)="goHome()">
+        <ion-icon slot="start" name="man" color="danger"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu> -->
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-grid>
+      <ion-row style="align-items: center">
+        <ion-col size="8">
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title
+              ><img
+                style="width: 210px"
+                src="https://bluethinkinc.com/wp-content/uploads/2023/app/bluethinkinc-logo-final.png"
+                alt="BluethinkInc Logo"
+            /></ion-title>
+          </ion-toolbar>
+        </ion-col>
+        <ion-col size="2" style="text-align: center"
+          ><ion-icon
+            style="font-size: 36px; color: rgb(114, 113, 113)"
+            name="person-sharp"
+          ></ion-icon
+        ></ion-col>
+        <ion-col size="2" style="text-align: right"
+          ><img
+            style="width: 45px"
+            src="https://bluethinkinc.com/wp-content/uploads/2023/app/us-flag-n.jpg"
+            alt="BluethinkInc Logo"
+          />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-header>
+
+  <ion-content>
+    <ion-tabs>
+      <ion-tab-bar slot="top">
+        <swiper>
+          <ng-template swiperSlide detail-icon="caret-forward-outline">
+            <ion-tab-button tab="java">
+              <ion-label>Java</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="python">
+              <ion-label>Python</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="react">
+              <ion-label>React</ion-label>
+            </ion-tab-button>
+            </ng-template>
+
+          <ng-template swiperSlide detail-icon="caret-forward-outline">
+            <ion-tab-button tab="java">
+              <ion-label>Java</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="python">
+              <ion-label>Python</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="react">
+              <ion-label>React</ion-label>
+            </ion-tab-button>
+            </ng-template>
+            <ng-template swiperSlide detail-icon="caret-forward-outline">
+              <ion-tab-button tab="java">
+                <ion-label>Java</ion-label>
+              </ion-tab-button>
+              <ion-tab-button tab="python">
+                <ion-label>Python</ion-label>
+              </ion-tab-button>
+              <ion-tab-button tab="react">
+                <ion-label>React</ion-label>
+              </ion-tab-button>
+              </ng-template>              
+        </swiper>
+      
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-content>
+</div>

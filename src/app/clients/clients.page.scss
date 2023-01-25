@@ -1,0 +1,46 @@
+
+p{
+    font-family: "Titillium Web",sans-serif;
+  }
+  ul li{
+    font-family: "Titillium Web",sans-serif;
+  }
+  h1{
+    font-family: "Titillium Web",sans-serif;
+  }
+  h2 {
+    font-family: "Titillium Web",sans-serif;
+  }
+  h3{
+    font-family: "Titillium Web",sans-serif;
+  }
+.ourclient-inner-sec {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.ourclients-title h1 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.ourclients-title p {
+    text-align: center;
+    font-size: 15px !important;
+    color: #000 !important;
+    line-height: 22px;
+    margin: 0px;
+}
+.client-img {
+    text-align: center;
+}
+.client-img {
+    border: 1px solid #ccc;
+    padding: 5px;
+}

@@ -1,0 +1,112 @@
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-grid>
+      <ion-row style="align-items: center">
+        <ion-col size="8">
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title
+              ><img
+                style="width: 210px"
+                src="https://bluethinkinc.com/wp-content/uploads/2023/app/bluethinkinc-logo-final.png"
+                alt="BluethinkInc Logo"
+            /></ion-title>
+          </ion-toolbar>
+        </ion-col>
+        <ion-col size="2" style="text-align: center"
+          ><ion-icon
+            style="font-size: 36px; color: rgb(114, 113, 113)"
+            name="person-sharp"
+          ></ion-icon
+        ></ion-col>
+        <ion-col size="2" style="text-align: right"
+          ><img
+            style="width: 45px"
+            src="https://bluethinkinc.com/wp-content/uploads/2023/app/us-flag-n.jpg"
+            alt="BluethinkInc Logo"
+          />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-header>
+
+  <ion-content>
+
+    <div class="address-section">
+      <div class="section-title">
+        <h3>CONNECT WITH US</h3>
+      </div>
+      <ion-card>
+        <ion-icon name="location"></ion-icon>
+        <p>420 W 9th St Maryville, Missouri 64468, United States</p>
+      </ion-card>
+      <ion-card>
+        <ion-icon name="call"></ion-icon>
+        <p>+1-660-528-1590</p>
+      </ion-card>
+      <ion-card>
+        <ion-icon name="mail"></ion-icon>
+        <p>info@bluethinkinc.com</p>
+      </ion-card>
+    </div>
+    <div class="form-section">
+      <div class="section-title">
+        <h3>Get Quote / Contact Our Experts</h3>
+      </div>
+      <form >
+        <span *ngIf="error" class="error_message">{{errorMessage}}</span>
+        <ion-input type="text" placeholder="Name" name="name" class="custom" style="color: #000;" [(ngModel)]="contact.name" required="true"></ion-input>
+        <ion-input type="email" placeholder="Email" name="email" class="custom"  style="color: #000;"  [(ngModel)]="contact.email" required></ion-input>
+        <ion-input type="text" placeholder="Subject" name ="subject" class="custom" style="color: #000;"  [(ngModel)]="contact.subject" required></ion-input>
+        <ion-textarea
+          class="custom-textarea"
+          placeholder="Message"
+          name ="message"
+          style="color: #000;"
+          [(ngModel)]="contact.message"
+        ></ion-textarea>
+        <ion-button (click)="submitForm()" type ="reset">Send Message</ion-button>
+        <p *ngIf="isSubmited" style="color: green; font-size: 15px; font-weight: 600;text-align: center;">{{submeitMessage}}</p>
+      </form>
+    </div>
+    <div class="lets-together-section ion-padding">
+      <div class="address-section-new">
+        <div class="address-inner">
+          <div class="address-icon">
+            <img src="https://bluethinkinc.com/wp-content/uploads/2021/10/USA_1.gif" alt="National Flag">
+          </div>
+          <div class="address_content">
+            <p>420 W 9th St Maryville, Missouri 64468, United States</p>
+          </div>
+        </div>
+        <div class="address-inner">
+          <div class="address-icon">
+            <img src="https://bluethinkinc.com/wp-content/uploads/2022/11/netherlands-flag_1.gif" alt="National Flag">
+          </div>
+          <div class="address_content">
+            <p>Betsy Perklaan 26, 1187PM, Amstelveen, Netherlands.</p>
+          </div>
+        </div>
+        <div class="address-inner">
+          <div class="address-icon">
+            <img src="https://bluethinkinc.com/wp-content/uploads/2022/11/canada-flag_4.gif" alt="National Flag">
+          </div>
+          <div class="address_content">
+            <p>6977 Antrim Ave Burnaby, BC. V5J 4M5, Canada</p>
+          </div>
+        </div>
+        <div class="address-inner">
+          <div class="address-icon">
+            <img src="https://bluethinkinc.com/wp-content/uploads/2022/11/india_flag_7.gif" alt="National Flag">
+          </div>
+          <div class="address_content">
+            <p>B-12, B Block, Sector 2, Noida, Uttar Pradesh 201301</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</div>
